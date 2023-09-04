@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    border: 1px solid blueviolet;
+    flex-direction: row;
+    justify-content: center ;
+}
+.box{
+    border: 1px solid blueviolet;
+}
+.box::after{
+    content: "BOX";
+}
+#box-1{
+    flex-grow: 1;
+
+    flex-grow: 1;
+}
+#box-2{
+    flex-grow: 4;
+
+}
