@@ -1,0 +1,32 @@
+.container{
+    color: aliceblue;
+    height: 50vh;
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "main . side-bar"
+    "footer footer footer ";
+    grid-template-rows: 100px 3fr;
+}
+.box{
+    outline: 1px solid;
+    text-align: center;
+}
+#box-1{
+    grid-area: "header";
+    background-color: darkmagenta;
+}
+#box-2{
+    grid-area: "main";
+    background-color:darkolivegreen;
+
+}
+#box-3{
+    grid-area: "side-bar";
+    background-color: darkorange;
+
+}
+#box-4{
+    grid-area: "footer";
+    background-color: darkkhaki;
+}

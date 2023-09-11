@@ -1,0 +1,33 @@
+.bandeira{
+    display: flex;
+    width: 400px;
+    height: 200px;
+    border: 1px solid;
+}
+
+.japao{
+    justify-content: center;
+    align-items: center;
+}
+circle{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.br{
+    background-color: green;
+    justify-content: center;
+    align-items: center;
+}
+.triangulo{
+    width: 0px;
+    height: 0px;
+
+    border: 100px solid black;
+    border-top-color: transparent;
+    border-right-width: 130px;
+    border-bottom-color:  transparent;
+    border-right-color: yellow;
+    border-left-color: transparent;
+}
