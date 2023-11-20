@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>q9</title>
+    <script src="q9.js"></script>
+    <style>
+        .calculadora {
+            display: grid;
+            grid-template-columns: repeat(4, auto);
+            grid-template-rows: repeat(5, auto);
+            grid-column-gap: 14px;
+            grid-row-gap: 10px;
+            width: 282px;
+            height: 290px;
+            background-color: gray;
+            outline: 1px solid black;
+            padding: 20px;
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            border-radius: 12px;
+        }
+
+        .resultado {
+            grid-column: span 4;
+            text-align: right !important;
+        }
+
+        .calculadora > div {
+            background-color: white;
+            text-align: center;
+            padding: 12px;
+            border-radius: 8px;
+        }
+
+        .calculadora > button {
+            background-color: white;
+            text-align: center;
+            padding: 6px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="calculadora">
+        <div class="resultado"> 0 </div>
+        <button> 7 </button>
+        <button> 8 </button>
+        <button> 9 </button>
+        <button> / </button>
+        <button> 4 </button>
+        <button> 5 </button>
+        <button> 6 </button>
+        <button> × </button>
+        <button> 1 </button>
+        <button> 2 </button>
+        <button> 3 </button>
+        <button> - </button>
+        <button> 0 </button>
+        <button> . </button>
+        <button> = </button>
+        <button> + </button>
+    </div>
+</body>
+</html>

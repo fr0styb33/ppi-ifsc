@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 6</title>
+    <script src="q6.js"></script>
+    <style>
+        #container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #palette {
+            display: flex;
+            flex-direction: row;
+            aspect-ratio: 5;
+            width: 100vw;
+            margin-bottom: 24px;
+        }
+        
+        #palette > div {
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="palette">
+            <div id="cor1"></div>
+            <div id="cor2"></div>
+            <div id="cor3"></div>
+            <div id="cor4"></div>
+            <div id="cor5"></div>
+        </div>
+
+        <button id="botao"> Randomizar </button>
+    </div>
+</body>
+</html>
