@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(227, 157, 52); /* Marrom claro */
+    background-color: rgb(222, 168, 243); 
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -32,7 +32,7 @@ div {
 #btnPesquisar {
     border-radius: 5px;
     padding: 8px;
-    background-color: #4caf50; /* Verde */
+    background-color: #d5acdf; 
     color: white;
     border: none;
     cursor: pointer;
@@ -41,7 +41,7 @@ div {
 #btnCadastrar {
     border-radius: 5px;
     padding: 10px;
-    background-color: #4caf50; 
+    background-color: #cca5d8; 
     color: white;
     border: none;
     cursor: pointer;
@@ -62,6 +62,6 @@ th, td {
 }
 
 th {
-    background-color: #86cd98; 
+    background-color: #c586cd; 
     color: white;
 }

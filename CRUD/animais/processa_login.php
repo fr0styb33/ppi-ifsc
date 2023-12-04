@@ -2,8 +2,8 @@
 session_start();
 
 
-$usuario_fixo = 'ana@gmail';
-$senha_fixa = 'ana1234';
+$usuario_fixo = 'cachorro@gmail';
+$senha_fixa = 'cahorro1234';
 
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
