@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(227, 157, 52); /* Marrom claro */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: black; 
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+#pesquisar {
+    border-radius: 5px;
+    padding: 8px;
+    width: 200px;
+}
+
+#btnPesquisar {
+    border-radius: 5px;
+    padding: 8px;
+    background-color: #4caf50; /* Verde */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#btnCadastrar {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #4caf50; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #000000;
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #86cd98; 
+    color: white;
+}

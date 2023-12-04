@@ -1,0 +1,12 @@
+CREATE DATABASE IF NOT EXISTS animais;
+
+
+USE animais;
+
+
+CREATE TABLE IF NOT EXISTS animais (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome_animal VARCHAR(255) NOT NULL,
+    idade DECIMAL(10, 2) NOT NULL,
+    especie VARCHAR(50) NOT NULL
+);
