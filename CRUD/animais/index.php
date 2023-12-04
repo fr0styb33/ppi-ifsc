@@ -19,7 +19,7 @@ if (!$result) {
 }
 
 
-$doces = mysqli_fetch_all($result, MYSQLI_ASSOC);
+$animais = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
 
 mysqli_close($conn);
@@ -80,9 +80,9 @@ mysqli_close($conn);
 
         var linhasTabela = document.querySelectorAll("tbody tr");
         linhasTabela.forEach(function (linha) {
-            var nomeDoce = linha.querySelector("td:nth-child(2)").textContent.toLowerCase(); 
+            var nomeAnimal = linha.querySelector("td:nth-child(2)").textContent.toLowerCase(); 
             
-            if (nomeDoce.includes(termoPesquisa)) {
+            if (nomeAnimal.includes(termoPesquisa)) {
                 linha.style.display = "";
             } else {
                 linha.style.display = "none";

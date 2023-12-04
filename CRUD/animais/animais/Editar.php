@@ -52,7 +52,7 @@ mysqli_close($conexao);
     
 
     <div class="container">
-    <h1>Editar Doce</h1>
+    <h1>Editar Animal</h1>
         <form method="POST">
             <label for="nome_animal">Nome do Animal:</label>
             <input type="text" id="nome_animal" name="nome_animal" value="<?php echo $animais['nome_animal']; ?>" required>
